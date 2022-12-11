@@ -1,0 +1,44 @@
+1.Find the culprit
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert("I’m JavaScript!");
+ </script>
+ <p>Whats the error in this ?</p>
+</body>
+</html>
+
+var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = [];
+for (var i = 0; i <numsArr.length ; i++) {
+new_string += numsArr[i] + ",";
+}
+console.log(new_string);
+
+var arr = ["guvi", "geek","zen", "fullstack"];
+var ano = function(arro) {
+ for (var i = 0; i <= arr.length; i++) {
+ console.log(arr[i].toUpperCase() + arr[i].substr(0));
+ }
+}
+ano();
+
+aa = (f,s,t) => {
+ console.log(f,s,t);
+ if(f>s &&f>t){
+ console.log(f)}
+ else if(s>f && s>t){
+ console.log(s)}
+ else{
+ console.log(t)}
+}
+var aa=(5,6,7);
+
+var new_string = [];
+for (var i=0; i<numsArr.length; i++) {
+ new_string += numsArr[i];
+
+}
+console.log(new_string);
